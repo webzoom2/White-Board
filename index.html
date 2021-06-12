@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+  </head>
+
+  <body>
+    <div class="menu-container">
+      <div class="circle"><i class="fa fa-circle" aria-hidden="true"></i></div>
+      <div class="pensil"><i class="fa fa-pencil" aria-hidden="true"></i></div>
+      <div class="rectangle"><i class="fa fa-square" aria-hidden="true"></i></div>
+      <div class="line"><i class="fa fa-arrows-v" aria-hidden="true"></i></div>
+      <div class="write">TEXT</div>
+      LineColor:
+      <input type="color" id="color" />
+      StrokeSize:
+      <input type="text" id="value" />
+      TextArea:
+      <input type="text" id="type" />
+      <button class="download"><i class="fa fa-floppy-o" aria-hidden="true"></i></button>
+    </div>
+    <div class="q">
+      <canvas class="board" id="canvas"></canvas>
+    </div>
+<script src="grid.js"></script>
+  </body>
+</html>
